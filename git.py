@@ -1,4 +1,4 @@
-import os , random
+import os , random;
 
 for i in range(10):
     d = str(i) + 'days ago'
@@ -9,6 +9,6 @@ for i in range(10):
     os.system('git commit --date=" 2023-'+str(rand)+'-'+d+'" -m 1')
 os.system('git push -u origin main')
 
-#git commit --amend --no-edit --date="Fri Nov 6 20:00:00 2015 -0600" 
+#git commit --amend --no-edit --date="Fri Jan 3:00:00 2020 -0600" 
 #git fetch origin master
 #git rebase origin/master
